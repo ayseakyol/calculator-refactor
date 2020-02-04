@@ -1,0 +1,1 @@
+document.getElementById("calculatebutton").addEventListener("click", calc);
