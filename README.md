@@ -17,11 +17,11 @@ I used *Html, CSS and Java Script* to prepare this calculator.
 
 
 ## Usage
-With
+With using the calculator, people can make dividing, adding, multiplying and minusing easily.
 
 ## Inspiration
-Thanks to `DuckDuckGo` for the inspiration of the page. 
+Thanks to `mmtuts tutorial` for the inspiration of the page. 
 
 ## Project status
-I finished the project with using 8 branches and master branch.
+I finished the project with using 5 branches and master branch. 
 
