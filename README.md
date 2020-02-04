@@ -1,4 +1,27 @@
-> * Follow [this tutorial from `mmtuts`](https://www.youtube.com/watch?v=qQEYAOPWDzk) and refactor your finished code into the files of this repository.  Be sure to organize your development process using Git Branches
-> * To learn more about how to organize your code & how to write development-strategies for this project, you can study the [using-user-input exercises](https://github.com/hackyourfuturebelgium/using-user-input)
-> * And of course, don't be limited by the tutorial!  It's just a starting point.  After making the base project work, follow your imagination
-> * Branching: for this project you should organize your branches basesd on _concern_ instead of user story.  If you look in the `development-strategy` template file you will find that there are a series of tables, the code for each table should be developed on it's own branch.  You can also find information on what the branches should be called in the students/module overview app for your class, and the assignment in the week's README
+# Project of Calculator-Refactor
+
+## Description
+I prepared this project to better understand the seperation of concerns. In scripts file there are 3 different type of javascript file: listener.js, logic.js. and handler.js.
+
+## Visual
+This is the main page of the project:
+
+![](https://raw.githubusercontent.com/ayseakyol/ayseakyol.github.io/master/screenshot/calc.png)
+
+
+## Installation
+With the `Visual Studio Code` I prepared this project. 
+
+## Features
+I used *Html, CSS and Java Script* to prepare this calculator. 
+
+
+## Usage
+With
+
+## Inspiration
+Thanks to `DuckDuckGo` for the inspiration of the page. 
+
+## Project status
+I finished the project with using 8 branches and master branch.
+
