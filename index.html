@@ -1,16 +1,38 @@
 <html>
-
 <head>
-
+  <meta charset="utf-8">
+  <meta name="laerning seperation of concerns">
+  <script src='scripts/handler.js'></script>
+  <title>Calculator-Refactor</title>
+  <link rel="stylesheet" href="style.css">
+  <script src='./scripts/logic.js'></script>
+  <script src='../scripts/testing.js'></script>
   <!-- this script is to help evaluate your deployed project -->
   <script src='./dependencies/evaluation.js'></script>
   <!-- this is the testing function for your logic -->
   <script src='./dependencies/testing.js'></script>
-
+  <script src='scripts/handler.js'></script>
 </head>
-
 <body>
-
+  <form id="form">
+    <h1>Calculator</h1>
+    <div>Value1:
+      <input type="text" id="value1"> 
+    </div>
+    <div>Value2:
+      <input type="text" id="value2">
+    </div>
+    <div> Operator:</div>
+    <select id="operator">
+      <option value="add">Add</option>
+      <option value="min">Minus</option>
+      <option value="div">Divide</option>
+      <option value="mul">Multiply</option>
+    </select>
+    <button type="button" id="calculatebutton">Calculate</button> 
+    <div>Result is:</div>
+    <div id="result"></div>
+  </form>   
+  <script src='scripts/listener.js'></script>
 </body>
-
 </html>
