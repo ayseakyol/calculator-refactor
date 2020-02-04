@@ -1,0 +1,25 @@
+body {
+    margin: 2vw;
+}
+form  {
+    background-color: #2e86c0;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50vw;
+    height: 60vh;
+    font-size: 2rem;
+    text-align: left;
+    line-height: 1.5em;
+    padding: 5vw;
+}
+#result {
+    background-color:  #fff; ;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 20vw;
+    height: 4vh;
+    text-align: center;
+    color: black;
+}
