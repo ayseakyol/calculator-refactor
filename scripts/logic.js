@@ -17,6 +17,13 @@ const doMathTests = [
   { name: 'invalid - 2', args: ['book', 0, 0], expected: 'invalid operation' },
   { name: 'invalid - 3', args: ['minus', 0, 0], expected: 'invalid operation' },
   // write 7 more test cases for doMath
+  { name: 'add - 4', args: ['add', -8, 0], expected: -8 },
+  { name: 'min - 4', args: ['min', -8, -4], expected: -12 },
+  { name: 'div - 4', args: ['div', 16, -2], expected: -8 },
+  { name: 'mul - 4', args: ['mul', -3, -2], expected: 6 },
+  { name: 'div - 5', args: ['div', 10, 2], expected: 5 },
+  { name: 'mul - 5', args: ['mul', 0, 2], expected: 0 },
+  { name: 'invalid - 4', args: ['addition', 0, 0], expected: 'invalid operation' },
 
 ];
 
@@ -34,10 +41,24 @@ function doMath(operation, a, b) {
     throw new Error('b should be a number');
   }
   // write your code below this comment:
-
-
-
+  function calc () {
+    var a = parseInt(document.querySelector("#value1").value);
+    var b = parseInt(document.querySelector("#value2").value);
+    var op = document.querySelector("#operator").value;
+    var calculate;
+     if (op == "add"){
+      calculate = a + b;
+    } else if (op == "min"){
+      calculate = a - b;
+    } else if (op == "div"){
+      calculate = a / b;
+    } else if (op == "mul"){
+      calculate = a * b;
+    }
+    document.querySelector("#result").innerHTML = calculate;
+    console.log(calculate);
+  return true;
+  
 }
-
 
 testing(doMath, doMathTests);
