@@ -2,11 +2,12 @@
 
 user story
 
-wireframe :[](https://wireframe.cc/m8UfSe)
+ [wireframe](https://wireframe.cc/m8UfSe)
 
 ## DOM
 
 | tag name | attributes | role |
+| --- | --- | --- |
 | Form | id="form" | to do prepare calculate form  |
 | Input | id="value1"| to put the numbers| 
 | Button | id="calculatebutton" | with clickling to calculate |
