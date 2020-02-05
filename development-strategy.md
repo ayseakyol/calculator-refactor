@@ -1,6 +1,4 @@
-# Name of Project
-
-user story
+# Calculator - Refactor
 
  [wireframe](https://wireframe.cc/m8UfSe)
 
@@ -17,7 +15,10 @@ user story
 
 | class name | description | role |
 | --- | --- | --- |
-| | | |
+| body| margin to prepare the space of page| space |
+| form| to style inputs and do more colorful | formate  |
+| result| to show the result more pretty | formate |
+
 
 ## Listeners
 
