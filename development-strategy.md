@@ -30,11 +30,11 @@
 
 | syntax | parameters | return value | behavior |
 | --- | --- | --- | --- |
-| | | | |
+| function calc() | value1-calue2-operation | another function |render output to DOM for user |
 
 ## Logic
 
 | syntax | parameters | return value | behavior |
 | --- | --- | --- | --- |
-| | | | |
+| const doMathTests | operation, a, b | control | logic of js|
 
