@@ -24,7 +24,7 @@
 
 | type | attached to | callback |
 | --- | --- | --- |
-| | | |
+| `click` event | id="calculatebutton" | calculate button for the opertaion from listener.js |
 
 ## Handlers
 
