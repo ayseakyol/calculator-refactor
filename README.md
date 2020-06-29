@@ -1,6 +1,7 @@
 # Project of Calculator-Refactor
 
 ## Description
+You can see and use the live demo [right here](https://ayseakyol.github.io/calculator-refactor/).
 I prepared this project to better understand the seperation of concerns. In scripts file there are 3 different type of javascript file: listener.js, logic.js. and handler.js.
 
 ## Visual
